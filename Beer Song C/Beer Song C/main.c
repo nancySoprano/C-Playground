@@ -27,6 +27,6 @@ void song(int bottles) {
 
 
 int main(int argc, const char * argv[]) {
-    song(4);
+    song(99);
     return 0;
 }
