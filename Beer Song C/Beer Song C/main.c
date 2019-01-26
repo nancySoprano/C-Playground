@@ -21,12 +21,13 @@ void song(int bottles) {
         int oneLess = bottles - 1;
         printf("Take one down, pass it around, %d bottles of beer on the wall.\n\n", oneLess);
         song(oneLess);
+        printf("Put a bottle in recycling, %d empty bottles in the bin.\n\n", bottles);
         
     }
     }
 
 
 int main(int argc, const char * argv[]) {
-    song(99);
+    song(4);
     return 0;
 }
