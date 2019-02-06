@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
 //printf("the int stored at addressOfI is %d\n", *addressOfI); // * -> will display the value of the integer stored at addresOfI. // asterix used to read the value that is stored at the address stored in addressOfI
     *addressOfI = 89; //use the * operator on the left hand side of an assignement to store data at a particular addess.
     printf("Now i is %d\n", i);
-    
+    printf("An int is %zu bytes\n", sizeof(i));
+    printf("A pointer is %zu bytes\n", sizeof(addressOfI));
     return 0;
 }
